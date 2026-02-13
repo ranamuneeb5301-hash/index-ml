@@ -13,3 +13,16 @@ polar: # Replace with a single Polar username
 buy_me_a_coffee: # Replace with a single Buy Me a Coffee username
 thanks_dev: # Replace with a single thanks.dev username
 custom: # Replace with up to 4 custom sponsorship URLs e.g., ['link1', 'link2']
+.product {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.product:hover {
+  transform: rotateY(15deg) scale(1.05);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+}
